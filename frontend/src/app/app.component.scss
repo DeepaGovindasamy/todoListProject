@@ -1,0 +1,73 @@
+.content-area {
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    margin: 24px;
+    padding: 8px;
+}
+
+.type-icon {
+    vertical-align: text-top;
+}
+
+.item-description .amount {
+    display: inline-block;
+    min-width: 32px;
+    position: relative;
+    text-align: right;
+}
+
+.item-deadline,.item-recurrence {
+    color: darkgrey;
+    font-size: small;
+}
+
+.item-label {
+    padding-left: 4px;
+}
+
+.item-subtext {
+    padding-left: 28px;
+}
+
+.new-item-type-select {
+    width: 200px;
+    margin-top: 8px;
+}
+
+.new-item-form-element {
+    padding: 4px;
+}
+
+.amount-input {
+    width: 75px;
+
+    .mat-form-field-infix {
+        width: 75px;
+    }
+}
+
+.label-input {
+    width: 300px;
+
+    .mat-form-field-infix {
+        width: 300px;
+    }
+}
+
+.frequency-input {
+    width: 100px;
+
+    .mat-form-field-infix {
+        width: 100px;
+    }
+}
+
+.period-select {
+    width: 75px;
+}
+
+.add-item-button {
+    bottom: 8px;
+    position: absolute;
+    right: 8px;
+}
